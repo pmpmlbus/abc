@@ -1,0 +1,97 @@
+1st:Enter the first number: 146123
+Enter the second number: 352120
+The product of 146123 and 352120 is 51452830760.
+
+2nd:Enter number of vertices/nodes in the Graph: 4 
+How many edges does the graph consist of: 5 
+Enter edge in the (Start, End, Weight) format, separated by commas (e.g., 0,1,5):  
+0,1,1 
+0,2,4 
+1,2,-2 
+1,3,2 
+3,2,3
+
+Weights according to all edges: 
+0 : 0 
+1 : 1 
+2 : -1 
+3 : 3 
+
+3rd:Enter the characters (comma-separated): a,b,c,d,e,f
+Enter the corresponding frequencies (comma-separated): 5,9,12,13,16,45
+Huffman Codes for the given characters:
+f -> 0
+c -> 100
+d -> 101
+a -> 1100
+b -> 1101
+e -> 111
+
+4th:Enter the number of radio stations: 4
+Enter the number of available frequencies: 3
+Enter the adjacency matrix (0 for no interference, 1 for interference):
+Row 1: 0 1 1 0
+Row 2: 1 0 1 1
+Row 3: 1 1 0 1
+Row 4: 0 1 1 0
+
+5th:Enter the number of students and clubs: 3
+Enter the cost matrix (each row should have 3 space-separated values):
+Enter costs for Student 1: 9 2 7
+Enter costs for Student 2: 6 4 3
+Enter costs for Student 3: 5 8 1
+Assign Student 1 to Club 2
+Assign Student 2 to Club 1
+Assign Student 3 to Club 3
+Optimal Cost is 9
+
+6th:Enter the number of items: 5
+Enter the values (profits) of the items separated by commas:
+1,4,5,7,4
+Enter the weights of the items separated by commas:
+1,3,4,5,2
+Enter the capacity of the knapsack: 9
+The maximum profit is: 13
+
+7th:Enter the cost matrix for 4 workers and 4 jobs (each row separated by space):
+Enter costs for Worker 1: 9 2 7 8
+Enter costs for Worker 2: 6 4 3 7
+Enter costs for Worker 3: 5 8 1 8
+Enter costs for Worker 4: 7 6 9 4
+Assign Worker 1 to Job 2
+Assign Worker 2 to Job 1
+Assign Worker 3 to Job 3
+Assign Worker 4 to Job 4
+Optimal Cost is 13
+
+8th:Enter your password: JackSuly951
+Suggested Passwords:
+JackSu<ly951
+JackSuly9:51
+JackS.uly951
+Ja=ckSuly951
+JackSu:ly951
+JackSuly(951
+JackS=uly951
+JackSuly95)1
+JackSuly9$51
+JackS~uly951
+
+9th:Enter the number of vertices: 4
+Enter the number of edges: 4
+Enter each edge as two space-separated vertices (e.g., '1 2' if there is an edge between vertex 1 and vertex 2):
+1 2
+1 3
+2 4
+3 4
+Approximate Minimum Vertex Cover: {1, 2, 3, 4}
+
+10th:Enter the number of elements: 8
+Enter the elements: 12 4 5 6 7 3 1 15
+Sorted array: 1 3 4 5 6 7 12 15
+
+
+
+m[i,w]=max([i-1,w],m[i-1,w-w[i]]+p[i])
+
+
